@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Fragment3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/placeNameFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#B4EC73"
+            android:gravity="center"
+            android:text="Brown Avocado"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="295dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/f" />
+
+        <TextView
+            android:id="@+id/placeDescripFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:text="Use them straight away. You can mash the flesh, mix in a little lemon juice and freeze. The browning is caused by an enzyme called polyphenol oxidase. By stopping air getting to the exposed flesh, you will slow down the enzymatic reaction. Cover the cut surface tightly with plastic film or brush it with olive oil. Covering the cut surface with lemon juice will deactivate the enzyme."
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

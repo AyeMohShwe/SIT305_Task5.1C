@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Fragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hh" />
+
+        <TextView
+            android:id="@+id/placeNameFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#B4FFEB3B"
+            android:gravity="center"
+            android:text="Harry's House"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/placeDescripFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:text="Harry Styles is king of the Billboard charts this week, no matter how one looks at the numbers. His new album Harry’s House is in charge of the Billboard 200, and its lead single “As It Was” is running the show on the Hot 100 yet again. Simply saying that either of these titles sit at No. 1 may be true, but there’s so much more to be said that points out just how massive this frame is for the former One Direction star."
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
